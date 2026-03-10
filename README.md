@@ -56,7 +56,7 @@ This project goes beyond simple glucose-based prediction. It uses a full ML pipe
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Value |
 |---|---|
@@ -84,7 +84,7 @@ This project goes beyond simple glucose-based prediction. It uses a full ML pipe
 
 ---
 
-## 🔍 SHAP Explainability
+##  SHAP Explainability
 
 After every prediction a bar chart shows:
 - 🔴 **Red bars** → features pushing toward Diabetic
@@ -92,7 +92,7 @@ After every prediction a bar chart shows:
 
 ---
 
-## 🚀 Run Locally
+## How to Run Locally
 
 ```bash
 # 1. Clone the repo
@@ -109,23 +109,30 @@ python train_model.py
 streamlit run app.py
 ```
 
-> 💡 Built using **PyCharm** with Python virtual environment (venv)
+> Built using **PyCharm** with Python virtual environment (venv)
 
 ---
 
-## 📁 Project Structure
+##📁 Project Structure
 
 ```
 📁 Diabetes-Prediction-Webapp-V2
- ├── 📄 app.py              → Streamlit web app
- ├── 📄 train_model.py      → Training + SHAP + model selection
- ├── 📄 diabetes.csv        → Dataset
- ├── 📄 model.pkl           → Saved best model
- ├── 📄 scaler.pkl          → Saved scaler
- ├── 📄 features.pkl        → SHAP-selected features
- ├── 📄 requirements.txt    → Dependencies
- └── 📁 .streamlit/
-     └── config.toml        → Streamlit config
+ ├── 📁 .idea/                → PyCharm project settings
+ ├── 📁 .streamlit/
+ │   └── config.toml          → Streamlit server config
+ ├── 📄 .gitattributes        → Git config
+ ├── 📄 .python-version       → Python version file
+ ├── 📄 LICENSE               → MIT License
+ ├── 📄 README.md             → Project documentation
+ ├── 📄 app.py                → Streamlit web app
+ ├── 📄 app_view.png          → App screenshot
+ ├── 📄 diabetes.csv          → Dataset
+ ├── 📄 features.pkl          → SHAP-selected features
+ ├── 📄 model.pkl             → Saved best model
+ ├── 📄 requirements.txt      → Dependencies
+ ├── 📄 runtime.txt           → Python version (3.11)
+ ├── 📄 scaler.pkl            → Saved scaler
+ └── 📄 train_model.py        → Training + SHAP + model selection
 ```
 
 ---
@@ -136,7 +143,7 @@ Python · PyCharm · Streamlit · XGBoost · SHAP · Scikit-learn · SMOTE · Ma
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Faria Anowara Adhora** — 
 
