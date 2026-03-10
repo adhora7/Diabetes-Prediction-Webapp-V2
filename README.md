@@ -77,8 +77,8 @@ This project goes beyond simple glucose-based prediction. It uses a full ML pipe
 | Glucose, BMI, Age, Pregnancies | Clinical |
 | DiabetesPedigreeFunction | Clinical |
 | BloodPressure, Insulin, SkinThickness | Clinical |
-| cvamp, stdamp, PowerHF | 🔬 Morphological |
-| age_glucose, glucose_bmi, insulin_bmi | 🔬 Morphological |
+| cvamp, stdamp, PowerHF |  Morphological |
+| age_glucose, glucose_bmi, insulin_bmi |  Morphological |
 
 > SHAP automatically selects the most impactful features from the above before final training.
 
